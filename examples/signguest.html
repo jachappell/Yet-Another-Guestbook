@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+  <head>
+    <title>Guestbook</title>
+  </head>
+
+  <body>
+    <table border="0" cellpadding="4" cellspacing="0" width="100%"
+    align="center" summary="Main">
+      <tr>
+        <td valign="top" width="100%" bgcolor="778899">
+          <table border="0" cellspacing="0" cellpadding="8" width= 
+          "100%" summary="">
+            <tr>
+              <td valign="top" bgcolor="EEEEEE">
+                <br>
+                 
+
+                <h2> Please sign my Guestbook</h2>
+
+                <form method="POST" action="cgi-bin/guestbook.cgi">
+                  <table>
+                    <tr>
+                      <td>Name:</td>
+
+                      <td><input name="name" size="40" maxlength=
+                      "60"></td>
+                    </tr>
+
+                    <tr>
+                      <td>Email:</td>
+
+                      <td><input name="email" size="40" maxlength= 
+                      "60"></td>
+
+                      <td><font size="-1">&nbsp; Formatted
+                      something like:&nbsp;<em>
+                      you@your-isp.com</em></font></td>
+                    </tr>
+
+                    <tr>
+                      <td>Homepage:</td>
+
+                      <td><input name="homepage" size="40"
+                      maxlength="60"></td>
+
+                      <td><font size="-1">&nbsp; Formatted
+                      something like:&nbsp;<em>
+                      http://www.your-isp.com/you</em></font></td>
+                    </tr>
+
+                    <tr>
+                      <td>Where are you from?</td>
+
+                      <td><input name="location" size="40"
+                      maxlength="60"></td>
+                    </tr>
+                  </table>
+                  <br>
+                   
+
+                  <table>
+                    <tr>
+                      <td>How did you find this page?</td>
+
+                      <td><select name="reference">
+                        <option>
+                          AltaVista
+                        </option>
+
+                        <option>
+                          Google
+                        </option>
+
+                        <option>
+                          Other Net Search
+                        </option>
+
+                        <option>
+                          NewsGroups
+                        </option>
+
+                        <option>
+                          Word of Mouth
+                        </option>
+
+                        <option>
+                          Dumb Luck
+                        </option>
+
+                        <option selected>
+                          Just Surfed On In!
+                        </option>
+                      </select></td>
+                    </tr>
+                  </table>
+                  <br>
+                   
+
+                  <p> Comments:<br>
+                   <textarea name="comments" cols="60" rows="8">
+                  </textarea></p>
+
+                  <table>
+                    <tr>
+                      <td><input type="submit" value=
+                      "Sign Guestbook"></td>
+
+                      <td><input type="reset" value="Clear"></td>
+                    </tr>
+                  </table>
+                </form>
+                <br>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
