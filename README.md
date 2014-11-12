@@ -5,5 +5,8 @@ ruin the internet.
 This software is made availble primarily for educational purposes.  Installing
 this guestbook will likely attract spammers and scammers.
 
-See: http://www.storage-b.com/perl/13
-     http://www.amon-hen.com/site-news/595
+See:
+<ul>
+<li><a href="http://www.storage-b.com/perl/13">Yet Another Guestbook Version 2.1</a></li>
+<li><a href="http://www.amon-hen.com/site-news/595">New Guestbook</a></li>
+</ul>
