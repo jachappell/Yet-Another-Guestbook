@@ -7,6 +7,6 @@ this guestbook will likely attract spammers and scammers.
 
 See:
 <ul>
-<li><a href="http://www.storage-b.com/perl/13">Yet Another Guestbook Version 2.1</a></li>
+<li><a href="https://www.storage-b.com/perl/13">Yet Another Guestbook Version 2.1</a></li>
 <li><a href="http://www.amon-hen.com/site-news/595">New Guestbook</a></li>
 </ul>
